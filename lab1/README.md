@@ -17,8 +17,6 @@
 
 2. Далее получим сведения о процессоре:
 
-1 команда:
-
 ```
 > Get-WmiObject -Class win32_processor
 
@@ -28,12 +26,6 @@ Manufacturer      : GenuineIntel
 MaxClockSpeed     : 1800
 Name              : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
 SocketDesignation : U3E1
-```
-
-2 команда:
-
-```
-
 ```
 
 3. Также получим последние 25 строк логов системы:
