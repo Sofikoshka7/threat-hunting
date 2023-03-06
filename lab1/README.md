@@ -17,7 +17,18 @@
 
 2. Далее получим сведения о процессоре:
 
-``
+1 команда:
+
+```
+> Get-WmiObject -Class win32_processor
+
+Caption           : Intel64 Family 6 Model 142 Stepping 12
+DeviceID          : CPU0
+Manufacturer      : GenuineIntel
+MaxClockSpeed     : 1800
+Name              : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+SocketDesignation : U3E1
+```
 
 В результате выполнения данной команды было получено:
 
