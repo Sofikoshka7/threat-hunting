@@ -11,11 +11,9 @@
 ## Ход работы
 1. Получим сведения о версии ядра:
 
-`>uname -a`
+`winver`
 
-В результате выполнения данной команды было получено:
-
-`MSYS_NT-10.0 LAPTOP-PVTQO0GB 2.5.0(0.297/5/3) 2016-04-12 13:08 x86_64 Msys`
+В результате выполнения данной команды была получена версия ядра - 22H2 (сборка ОС 22621.1265)
 
 2. Далее получим сведения о процессоре:
 
@@ -24,17 +22,8 @@
 В результате выполнения данной команды было получено:
 
 ```
-model name      : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
-model name      : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
-model name      : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
-model name      : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
-model name      : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
-model name      : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
-model name      : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
-model name      : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
-```
 3. Также получим последние 30 строк логов системы:
-4. 
+
 `> Get-EventLog -LogName 'system' -Newest 30`
 
 ```
