@@ -23,7 +23,7 @@
 winver
 ```
 
-![](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_1.png)
+![alt text](https://github.com/Sofikoshka7/threat-hunting/blob/main/lab1/Screenshot_1.png)
 
 
 В результате выполнения данной команды была получена версия ядра - 22Н2 (сборка ОС 22621.1702)
