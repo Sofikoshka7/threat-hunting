@@ -23,7 +23,7 @@
 winver
 ```
 
-![alt text](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_1.png)
+![](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_1.png)
 
 
 В результате выполнения данной команды была получена версия ядра - 22Н2 (сборка ОС 22621.1702)
@@ -34,13 +34,13 @@ winver
 Get-WmiObject win32_Processor
 ```
 
-![alt text](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_2.png)
+![](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_2.png)
 
 ```
 WMIC CPU Get DeviceID,NumberOfCores NumberOfLogicalProcessors
 ```
 
-![alt text](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_3.png)
+![](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_3.png)
 
 Было определено, что используемый процессор - 4-х ядерный 8-ми поточный Intel(R) Core(TM) i5-8265U
 
@@ -50,7 +50,7 @@ WMIC CPU Get DeviceID,NumberOfCores NumberOfLogicalProcessors
 Get-EventLog -LogName 'system' -Newest 30
 ```
 
-![alt text](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_4.png)
+![](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_4.png)
 
 ## Оценка результата
 
