@@ -9,7 +9,7 @@
 1.  ОС Windows
 2.  Freeplane
 3.  ГОСТ Р 56546-2015
-4.  Visual Code
+4.  Visual Studio Code
 
 ## Ход работы
 
