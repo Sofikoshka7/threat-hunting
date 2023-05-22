@@ -17,7 +17,7 @@ engine: knitr
 
 1.  Ноутбук Lenovo
 2.  Windows 11
-3.  Visual Code
+3.  Visual Studio Code
 
 ## План
 
