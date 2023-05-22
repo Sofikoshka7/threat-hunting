@@ -34,13 +34,13 @@ winver
 Get-WmiObject win32_Processor
 ```
 
-![](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_2.png)
+![alt text](https://github.com/Sofikoshka7/threat-hunting/blob/main/lab1/Screenshot_2.png)
 
 ```
 WMIC CPU Get DeviceID,NumberOfCores NumberOfLogicalProcessors
 ```
 
-![](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_3.png)
+![alt text](https://github.com/Sofikoshka7/threat-hunting/blob/main/lab1/Screenshot_3.png)
 
 Было определено, что используемый процессор - 4-х ядерный 8-ми поточный Intel(R) Core(TM) i5-8265U
 
@@ -50,7 +50,7 @@ WMIC CPU Get DeviceID,NumberOfCores NumberOfLogicalProcessors
 Get-EventLog -LogName 'system' -Newest 30
 ```
 
-![](https://github.com/Sofikoshka7/threat-hunting/edit/main/lab1/Screenshot_4.png)
+![alt text](https://github.com/Sofikoshka7/threat-hunting/blob/main/lab1/Screenshot_4.png)
 
 ## Оценка результата
 
